@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rounded square background -->
+  <rect width="512" height="512" rx="128" fill="#000000"/>
+  
+  <!-- Clock marks -->
+  <rect x="241" y="64" width="30" height="80" rx="15" fill="white"/>
+  <rect x="368" y="241" width="80" height="30" rx="15" fill="white"/>
+  <rect x="241" y="368" width="30" height="80" rx="15" fill="white"/>
+  <rect x="64" y="241" width="80" height="30" rx="15" fill="white"/>
+  
+  <!-- Diagonal marks -->
+  <rect x="321" y="127" width="30" height="80" rx="15" transform="rotate(45 321 127)" fill="white"/>
+  <rect x="385" y="321" width="30" height="80" rx="15" transform="rotate(135 385 321)" fill="white"/>
+  <rect x="127" y="385" width="30" height="80" rx="15" transform="rotate(225 127 385)" fill="white"/>
+  <rect x="127" y="127" width="30" height="80" rx="15" transform="rotate(-45 127 127)" fill="white"/>
+  
+  <!-- Arrow -->
+  <path d="M256 256L256 128L296 168L256 128L216 168L256 128Z" fill="white"/>
+</svg>
